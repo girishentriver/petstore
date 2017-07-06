@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <script src="Scripts/angular.min.js"></script>
+   <script src="Scripts/app.js"></script>
+</head>
+<body ng-app="myApp">    
+  <div ng-controller="myCtrl">
+    <form action="/login" method="post">
+        <div>
+            <label>Username:</label>
+            <input type="text" name="username" ng-model="username"/>
+        </div>
+        <div>
+            <label>Password:</label>
+            <input type="password" name="password" ng-model="password"/>
+        </div>
+        <div>
+        <input type="submit" value="Submit" ng-click="submit()">
+        </div>
+</form>
+  </div>
+</body>

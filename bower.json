@@ -1,0 +1,17 @@
+{
+  "name": "petstore",
+  "description": "petstore ecommerce site need to update architecture pdf",
+  "main": "index.js",
+  "authors": [
+    "yashwanth <yashwanth@motoinnov.com>"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/girishentriver/petstore",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
